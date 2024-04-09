@@ -17,8 +17,10 @@ app.post('/calculate', (req, res) => {
     }
 
     const result = num1 + num2;
+    const randomNumber = Math.floor(Math.random() * 10) + 1;
+    const finalResult = result + randomNumber;
 
-    res.json({ result: result });
+    res.json({ result: finalResult });
 });
 
 app.listen(port, () => {
