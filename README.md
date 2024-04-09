@@ -15,7 +15,6 @@ npm install
 
 3. Avvia il frontend aprendo il file index.html nel tuo browser preferito.
 
-Il frontend sarà disponibile all'indirizzo [http://localhost:5500/frontend](http://localhost:5500/frontend).
 
 ### Backend
 1. Vai nella cartella backend:
