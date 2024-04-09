@@ -6,15 +6,29 @@
     <title>Test task Cents</title>
 
     <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Test task Cents</h1>
-    <div>
-      <input type="number" id="num1" placeholder="Enter number 1" />
-      <input type="number" id="num2" placeholder="Enter number 2" />
-      <button id="calculateBtn">Calculate</button>
+    <div class="container">
+      <h1>Test task for <span class="span">Cents</span> </h1>
+      <p>
+        Enter two numbers in the input fields below and click the "Calculate" button to see the
+        result.
+      </p>
+      <div class="input-container">
+        <input type="number" id="num1" placeholder="Enter number 1" />
+        <input type="number" id="num2" placeholder="Enter number 2" />
+        <button id="calculateBtn">Calculate</button>
+      </div>
+      <div id="result">Here you will see your result</div>
     </div>
-    <div id="result"></div>
+
     <script src="script.js"></script>
   </body>
 </html>
